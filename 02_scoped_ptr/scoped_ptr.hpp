@@ -1,4 +1,6 @@
-
+// Заголовочный файл защищён от повторного включения при помощи `include guards`.
+#ifndef SCOPED_PTR_HPP
+#define SCOPED_PTR_HPP
 template<typename T>
 class ScopedPtr
 {
@@ -76,3 +78,5 @@ public:
 private:
     T* ptr_;
 };
+
+#endif
