@@ -5,6 +5,7 @@
 
 int main()
 {
+    // проверка конструктора
     ScopedPtr<std::string> firstStrPtr(new std::string("Hello"));
 
     // проверка оператора `*`
